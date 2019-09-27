@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="测试单例">
+        <classes>
+            <class name="com.syiti.dev.syiti.selenium.demo.suite.BasicClass"></class>
+            <class name="com.syiti.dev.syiti.selenium.demo.suite.OpenWebsiteTestNG"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="回归测试">
+        <classes>
+            <class name="com.syiti.dev.syiti.selenium.demo.suite.BasicClass"></class>
+            <class name="com.syiti.dev.syiti.selenium.demo.suite.KeyboaedActionsTestNG"></class>
+            <class name="com.syiti.dev.syiti.selenium.demo.suite.OpenWebsiteTestNG"></class>
+        </classes>
+    </test>
+
+</suite>

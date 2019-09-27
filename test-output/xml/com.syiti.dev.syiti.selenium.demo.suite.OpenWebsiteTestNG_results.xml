@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="回归测试"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.324">
+  <properties />
+  
+  
+            <testcase name="test" time="0.324" classname="com.syiti.dev.syiti.selenium.demo.suite.OpenWebsiteTestNG" />
+      
+</testsuite>
